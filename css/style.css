@@ -37,3 +37,53 @@
 .about-feature h5{
     font-weight: bold;
 }
+.about-icon{
+    width: 80px;
+    height: 80px;
+    background: #65AFFF;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+.about-icon-col{
+    padding: 5px;
+}
+.about-pic{
+    margin-top: 50px;
+}
+
+.teacher-about h5{
+    font-family: "verdana", sans-serif;
+    font-weight: bold;
+}
+.teacher-about p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+.teacher-pic-box-1,.teacher-pic-box-2{
+    padding-top: 50px;
+}
+.service-text h1{
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.service-text h4{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.services-icon{
+    font-size: 50px;
+    color: #65AFFF;
+    padding-top: 40px;
+}
+.service-box{
+    padding-top: 50px;
+}
+.service-row-2,.service-row-3{
+    padding-top: 50px;
+}

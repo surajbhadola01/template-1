@@ -23,6 +23,31 @@
         .about-title-des-br{
             display: none;
         }
+        .about-icon-col{
+            padding-left: 10px;
+        }
+        .about-title-def{
+            text-align: justify;
+        }
+        .about-pic{
+            margin-top: 0;
+        }
+        .teacher-about{
+            padding-top: 20px;
+        }
+        .teacher-pic-box-1{
+            padding: 20px;
+            padding-bottom: 0;
+        }
+        .teacher-pic-box-2{    
+            padding: 20px;
+        }
+        .service-row-2{
+            padding-top: 30px;
+        }
+        .service-row-3{
+            display: none;
+        }
     }
     
    
