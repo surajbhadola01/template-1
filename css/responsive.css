@@ -20,4 +20,9 @@
         .mobile-menu li{
 			display:inline-block;	
         }	
-	}
+        .about-title-des-br{
+            display: none;
+        }
+    }
+    
+   

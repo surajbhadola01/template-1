@@ -10,3 +10,30 @@
 .desktop-menu,.mobile-menu{
     display:none;
 }
+
+.title{
+    font-size: 33px;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color:#283D50; 
+    margin-top:40px;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+.about-title-des,.about-title-def{
+    font-size:17px;
+    font-family: "Montserrat", sans-serif;
+    padding:0;
+}
+.about-title-def{
+    margin-top: 20px;
+}
+.about-feature{
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+.about-feature h5{
+    font-weight: bold;
+}
