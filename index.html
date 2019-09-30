@@ -296,5 +296,127 @@
 </div>
 <!--end why choose us-->
     
+<!--start dat filter-->
+
+<div class="jumbotron filter-box">
+    <center>
+    <div class="btn-group">
+    <button type="button" class="btn" data-filter="all">All</button>
+    <button type="button" class="btn" data-filter="free">Free</button>
+    <button type="button" class="btn" data-filter="paid">Paid</button>
+    </div>
+    </center>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 img-col all free">
+                <div class="img-box">
+                    <img src="pic/person_3.jpg" alt="a" width="100%">
+                    <h4>Abstract Painting</h4>
+                    <p>Free</p>
+                </div>
+            </div>
+            <div class="col-md-4 img-col all free">
+                <div class="img-box">
+                    <img src="pic/person_1.jpg" alt="a" width="100%">
+                    <h4>Abstract Painting</h4>
+                    <p>Free</p>
+                </div>
+            </div>
+            <div class="col-md-4 img-col all free">
+                <div class="img-box">
+                    <img src="pic/person_2.jpg" alt="a" width="100%">
+                    <h4>Abstract Painting</h4>
+                    <p>Free</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+                <div class="col-md-4 img-col all paid">
+                    <div class="img-box">
+                        <img src="pic/staff-3.jpg" alt="a" width="100%">
+                        <h4>Abstract Painting</h4>
+                        <p>Paid</p>
+                    </div>
+                </div>
+                <div class="col-md-4 img-col all paid">
+                    <div class="img-box">
+                        <img src="pic/staff-1.jpg" alt="a" width="100%">
+                        <h4>Abstract Painting</h4>
+                        <p>Paid</p>
+                    </div>
+                </div>
+                <div class="col-md-4 img-col all paid">
+                    <div class="img-box">
+                        <img src="pic/staff-2.jpg" alt="a" width="100%">
+                        <h4>Abstract Painting</h4>
+                        <p>Paid</p>
+                    </div>
+                </div>
+            </div>
+
+        
+    </div>
+
+</div>
+
+<!--end data filter-->
+<!--start footer coding-->
+
+<div class="container-fluid" style="padding-bottom: 20px">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5 style="font-size: 23px">Lorem, ipsum.</h5>
+                <h6 style="font-size: 13px">
+                    elit. Laboriosam, impedit. Tempora non voluptate quaerat libero iure, fuga consequatur explicabo repellat nesciunt odit illum harum reiciendis, at 
+                </h6>
+            </div>
+            <div class="col-md-4">
+                <h5 style="font-size: 23px">Contact Us</h5>
+                
+                <i class="fa fa-facebook" style="font-size: 23px"></i>
+                <i class="fa fa-instagram" style="font-size: 23px"></i>
+                <i class="fa fa-whatsapp" style="font-size: 23px"></i>
+                <i class="fa fa-twitter" style="font-size: 23px"></i>
+                
+            </div>
+            <div class="col-md-4">
+                    <h5 style="font-size: 23px">Useful Links</h5>
+                    <h6><a href="#">Home</a></h6>
+                    <h6><a href="#">About Us</a></h6>
+                    <h6><a href="#">Services</a></h6>
+                    <h6><a href="#">Clients</a></h6>
+                    <h6><a href="#">Portfolio</a></h6>
+            </div>
+            
+        </div>
+    </div>
+
+    
+</div>
+
+<div class="container-fluid last-footer">
+        <h1>Designed By Suraj Bhadola</h1>
+    </div>
+<!--end footer coding-->
+<script>
+    $(document).ready(function(){
+        $(".btn").each(function(){
+            $(this).click(function(){
+                var filter=$(this).data("filter");
+                $(".all").each(function(){
+                    $(this).hide();
+                    $("."+filter).each(function(){
+                        $(this).slideDown(500);
+                    });
+                });
+            });
+        });
+    });
+</script>
+
 </body>
 </html>
