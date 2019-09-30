@@ -48,6 +48,12 @@
         .service-row-3{
             display: none;
         }
+        .choose-us-head h1{
+            font-size: 30px;
+        }
+        .choose-us-row-1{
+            padding-left: 30px;
+        }
     }
     
    
